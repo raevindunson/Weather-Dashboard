@@ -6,4 +6,4 @@ Here you will find an application that will allow you to get data on the weather
 
 Click the link below to get started!
 
-https://raevindunson.github.io/weather-dashboard
+https://raevindunson.github.io/Weather-Dashboard/
