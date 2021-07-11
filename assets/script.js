@@ -1,12 +1,13 @@
 var cityChoice = document.getElementById("input-city")
 var citySubmit = document.getElementById("city-button")
+var apiKey = //private
 
 //Click did not work. API does function, but search term did not function properly
 $("#city-button").click(function() {
     fetch(
         'https://api.openweathermap.org/data/2.5/weather?' +
         'q=' + valueOf(cityChoice) +
-        '&appid=17d2ded72fe219e1012b48d2ab810242'
+        '&appid=' + apiKey
     )
     .then(function(res) {
         return res.json();
