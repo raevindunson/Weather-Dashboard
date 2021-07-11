@@ -1,0 +1,9 @@
+header {
+    text-align: center;
+}
+
+#city-search {
+    display: flex;
+    flex-direction: column;
+    float:left;
+}
